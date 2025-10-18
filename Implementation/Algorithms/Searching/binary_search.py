@@ -1,7 +1,7 @@
 def binary_search(v, L):
     if L == []:
         return (False)
-    m = len(L)//2
+    mid = len(L)//2
     if v == L[mid]:
         return (True)
     if v < L[mid]:
